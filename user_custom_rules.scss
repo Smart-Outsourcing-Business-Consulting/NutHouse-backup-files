@@ -44,3 +44,27 @@
 }
 
 //END
+
+#wrap>div:nth-child(15)>section.s_title.o_colored_level.pb8.pt144 {
+    background-image: none;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+// frontpage buttons in the spotlight location margin
+#wrap>div:nth-child(15)>section.s_title.o_colored_level.pb8.pt144>div>h2>span>a {
+
+padding-left: 1380px;
+
+}
+//END
+#wrap>div.oe_structure.o_editable.o_dirty>section.s_title.o_colored_level.pb8.pt144>div>h2>span>a {
+background: none;
+border: 1px solid var(--primary);
+padding: 11px 21px;
+color: var(--primary);
+border-radius: 6px;
+font-weight: 700;
+font-family:"Roboto",
+"Odoo Unicode Support Noto",
+sans-serif;
+}
