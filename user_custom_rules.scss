@@ -7,11 +7,40 @@
 // }
 //
 
-
+//Image profile picture top right
 #navbarToggle>ul>li.nav-item.user>div>a>div>img {
 
 
     content: url('https://i.imgur.com/8Slb9LW.png') !important;
     width: 49px;
     height: auto;
+    //width:25px;
 }
+// END
+//Image circle fix attempt 1
+.category_item_img {
+    width: 100%;
+    height: auto;
+}
+
+
+//Styling front page
+#wrap>div.oe_structure.o_editable.o_dirty>section:nth-child(2)
+{
+    background-image: none;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#wrap>div:nth-child(15)>section:nth-child(3) {
+    background-image: none;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+// buttons frontpage (in the spotlight)
+#wrap>div:nth-child(15)>section.s_title.o_colored_level.pb8.pt144>div>p>span>a {
+    color: #fff;
+    width:104.47px;
+    height:48px;
+}
+
+//END
