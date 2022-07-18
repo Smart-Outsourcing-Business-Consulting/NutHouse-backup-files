@@ -68,3 +68,10 @@ font-family:"Roboto",
 "Odoo Unicode Support Noto",
 sans-serif;
 }
+
+// footer display down
+
+#footer>section>div>div>div.d-flex.align-items-center.justify-content-center.justify-content-lg-start.o_colored_level.pt16.pb8.col-lg-5>ul {
+    display: flex;
+    flex-direction: column;
+}
