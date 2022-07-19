@@ -186,12 +186,12 @@
                 </div>
             </section>
             <div class="oe_structure">
-                <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+                <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="">
                     <div class="container">
                         <div class="row d-flex align-items-stretch">
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                                 <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top rounded" src="/web/image/6816-fdb738e3/ezgif-3-51198b8fe6.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip358326" data-original-id="6676" data-original-src="/web/image/6676-188ce23d/ezgif-3-51198b8fe6.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-quality="100" />
+                                    <img class="card-img-top" src="/web/image/6816-fdb738e3/ezgif-3-51198b8fe6.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip358326" data-original-id="6676" data-original-src="/web/image/6676-188ce23d/ezgif-3-51198b8fe6.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-quality="100" />
                                     <div class="card-body">
                                         <h3 class="card-title">
                                             <span style="font-size: 24px;">Vegan Baklava Recipe</span>
@@ -204,12 +204,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                                 <div class="card bg-white h-100">
-                                    <img class="card-img-top rounded" src="/web/image/6815-beb12d7c/ezgif.com-gif-maker%20%281%29.jpg" alt="" loading="lazy" data-original-id="6677" data-original-src="/web/image/6677-91b23c69/ezgif.com-gif-maker%20%281%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-original-title="" title="" aria-describedby="tooltip956302" data-quality="100" />
+                                    <img class="card-img-top" src="/web/image/6815-beb12d7c/ezgif.com-gif-maker%20%281%29.jpg" alt="" loading="lazy" data-original-id="6677" data-original-src="/web/image/6677-91b23c69/ezgif.com-gif-maker%20%281%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-original-title="" title="" aria-describedby="tooltip956302" data-quality="100" />
                                     <div class="card-body">
                                         <h3 class="card-title">
-                                            <span style="font-size: 24px;">Baking with gluten-free flour all you need to know</span>
+                                            <span style="font-size: 24px;">Baking with gluten-free flour - all you need to know</span>
                                             <br />
                                         </h3>
                                         <p class="card-text">
@@ -219,9 +219,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
                                 <div class="card bg-white h-100">
-                                    <img class="card-img-top rounded" src="/web/image/6811-300ce771/ezgif.com-gif-maker%20%2810%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip369120" style="" data-original-id="6795" data-original-src="/web/image/6795-d8f9e327/ezgif.com-gif-maker%20%2810%29.jpg" data-mimetype="image/jpeg" data-resize-width="500" data-quality="100" />
+                                    <img class="card-img-top" src="/web/image/6811-300ce771/ezgif.com-gif-maker%20%2810%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip369120" style="" data-original-id="6795" data-original-src="/web/image/6795-d8f9e327/ezgif.com-gif-maker%20%2810%29.jpg" data-mimetype="image/jpeg" data-resize-width="500" data-quality="100" />
                                     <div class="card-body">
                                         <h3 class="card-title">
                                             <span style="font-size: 24px;">All about Sea Moss</span>
@@ -334,7 +334,7 @@
                         <div class="row d-flex align-items-stretch">
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
                                 <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top rounded" src="/web/image/6810-480283ad/blue-green-algae-w4h2bv%20%281%29.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip599466" data-original-id="6808" data-original-src="/web/image/6808-a5d1e500/blue-green-algae-w4h2bv%20%281%29.png" data-mimetype="image/png" data-resize-width="281" style="" />
+                                    <img class="card-img-top" src="/web/image/6810-480283ad/blue-green-algae-w4h2bv%20%281%29.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip599466" data-original-id="6808" data-original-src="/web/image/6808-a5d1e500/blue-green-algae-w4h2bv%20%281%29.png" data-mimetype="image/png" data-resize-width="281" style="" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <span style="font-size: 24px;">Nature food</span>
@@ -348,7 +348,7 @@
                             </div>
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
                                 <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top rounded" src="/web/image/6812-e0ad22c4/Medjul-Dates-Jumbo.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip276715" style="" data-original-id="6809" data-original-src="/web/image/6809-97a28c7e/Medjul-Dates-Jumbo.jpg" data-mimetype="image/jpeg" data-resize-width="450" data-quality="100" />
+                                    <img class="card-img-top" src="/web/image/6812-e0ad22c4/Medjul-Dates-Jumbo.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip276715" style="" data-original-id="6809" data-original-src="/web/image/6809-97a28c7e/Medjul-Dates-Jumbo.jpg" data-mimetype="image/jpeg" data-resize-width="450" data-quality="100" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <span style="font-size: 24px;">Dried Fruit</span>
@@ -362,7 +362,7 @@
                             </div>
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
                                 <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top rounded" src="/web/image/6814-eb7f6141/ezgif.com-gif-maker%20%2871%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip906424" style="" data-original-id="6805" data-original-src="/web/image/6805-f0111550/ezgif.com-gif-maker%20%2871%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-quality="100" />
+                                    <img class="card-img-top" src="/web/image/6814-eb7f6141/ezgif.com-gif-maker%20%2871%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip906424" style="" data-original-id="6805" data-original-src="/web/image/6805-f0111550/ezgif.com-gif-maker%20%2871%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-quality="100" />
                                     <div class="card-body" data-original-title="" title="" aria-describedby="tooltip300257">
                                         <h3 class="card-title" data-original-title="" title="" aria-describedby="tooltip915025" style="text-align: center;">
                                             <font style="color: inherit; background-color: inherit; text-decoration-line: line-through;" />
@@ -377,7 +377,7 @@
                             </div>
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
                                 <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top rounded" src="/web/image/6813-f0bfc83e/macadamianutbutter1.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip912602" data-original-id="6806" data-original-src="/web/image/6806-18943180/macadamianutbutter1.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" />
+                                    <img class="card-img-top" src="/web/image/6813-f0bfc83e/macadamianutbutter1.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip912602" data-original-id="6806" data-original-src="/web/image/6806-18943180/macadamianutbutter1.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <font style="color: inherit; font-size: 24px;">Nut Butters</font>
@@ -392,33 +392,26 @@
                         </div>
                     </div>
                 </section>
-                <section class="s_title o_colored_level pb8 pt144" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
-                    <div class="s_allow_columns container-fluid">
-                        <p style="text-align: center;" data-original-title="" title="" aria-describedby="tooltip798556">
-                            <span style="font-size: 24px;" data-original-title="" title="" aria-describedby="tooltip93681">
-                                In the spotlight&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;
-                                <a class="btn btn-custom text-o-color-1" href="https://nuthousecuracao.com/collections" data-original-title="" title="" style="border-width: 1px; border-style: solid; border-color: rgb(11, 147, 11);">
-                                    <span style="font-size: 24px;" data-original-title="" title="" aria-describedby="tooltip571712">
-                                        <font style="font-weight: bolder; font-size: medium;" data-original-title="" title="" aria-describedby="tooltip238701">
-                                            V
-                                            <span style="font-size: medium;">​</span>
-                                            i
-                                        </font>
-                                    </span>
-                                    <span style="font-size: 24px;">
-                                        <font style="font-weight: bolder; font-size: medium;" data-original-title="" title="" aria-describedby="tooltip992931">ew All</font>
-                                    </span>
-                                </a>
-                            </span>
-                        </p>
-                    </div>
+                <section class="s_text_block pt40 o_colored_level pb32" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                    <h2>
+                        <div class="s_allow_columns container">
+                            <h2 style="text-align: left;" data-original-title="" title="" aria-describedby="tooltip258730">In The Spotlight</h2>
+                            <h2 />
+                            <div class="ml-auto">
+                                <p data-original-title="" title="" aria-describedby="tooltip47660" style="text-align: left;">
+                                    <a href="https://nuthousecuracao.com/collections" data-original-title="" title="">View All</a>
+                                    <br />
+                                </p>
+                            </div>
+                        </div>
+                    </h2>
                 </section>
-                <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+                <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="">
                     <div class="container">
                         <div class="row d-flex align-items-stretch">
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
                                 <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top rounded" src="/web/image/6949-ff996832/ezgif.com-gif-maker.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip111820" data-original-id="6817" data-original-src="/web/image/6817-0725f307/ezgif.com-gif-maker.png" data-mimetype="image/png" data-resize-width="748" style="" />
+                                    <img class="card-img-top" src="/web/image/6818-496f2594/ezgif.com-gif-maker.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip111820" data-original-id="6817" data-original-src="/web/image/6817-0725f307/ezgif.com-gif-maker.png" data-mimetype="image/png" data-resize-width="690" style="" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <span style="font-size: 24px;">Bliss Balls</span>
@@ -428,7 +421,7 @@
                             </div>
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
                                 <div class="card bg-white h-100">
-                                    <img class="card-img-top rounded" src="/web/image/6828-f7d26fd1/ezgif.com-gif-maker%20%281%29.png" alt="" loading="lazy" style="" data-original-id="6824" data-original-src="/web/image/6824-c94cc312/ezgif.com-gif-maker%20%281%29.png" data-mimetype="image/png" data-resize-width="203" data-original-title="" title="" aria-describedby="tooltip340445" />
+                                    <img class="card-img-top" src="/web/image/6828-f7d26fd1/ezgif.com-gif-maker%20%281%29.png" alt="" loading="lazy" style="" data-original-id="6824" data-original-src="/web/image/6824-c94cc312/ezgif.com-gif-maker%20%281%29.png" data-mimetype="image/png" data-resize-width="203" data-original-title="" title="" aria-describedby="tooltip340445" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <span style="font-size: 24px;">Vegan Cheese</span>
@@ -442,7 +435,7 @@
                             </div>
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
                                 <div class="card bg-white h-100">
-                                    <img class="card-img-top rounded" src="/web/image/6827-0a75f761/18a0a08ff1de437aa8a1a689305fcff2.jfif" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip352222" data-original-id="6825" data-original-src="/web/image/6825-f48f4279/18a0a08ff1de437aa8a1a689305fcff2.jfif" data-mimetype="image/jpeg" data-resize-width="562" data-quality="100" />
+                                    <img class="card-img-top" src="/web/image/6827-0a75f761/18a0a08ff1de437aa8a1a689305fcff2.jfif" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip352222" data-original-id="6825" data-original-src="/web/image/6825-f48f4279/18a0a08ff1de437aa8a1a689305fcff2.jfif" data-mimetype="image/jpeg" data-resize-width="562" data-quality="100" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <span style="font-size: 24px;">Nut Mixes</span>
@@ -456,21 +449,25 @@
                             </div>
                             <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
                                 <div class="card bg-white h-100">
-                                    <img class="card-img-top rounded" src="/web/image/6829-f58ff7eb/ezgif.com-gif-maker%20%283%29.png" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip578580" data-original-id="6826" data-original-src="/web/image/6826-9a3d08ff/ezgif.com-gif-maker%20%283%29.png" data-mimetype="image/png" data-resize-width="365" />
+                                    <img class="card-img-top" src="/web/image/6829-f58ff7eb/ezgif.com-gif-maker%20%283%29.png" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip578580" data-original-id="6826" data-original-src="/web/image/6826-9a3d08ff/ezgif.com-gif-maker%20%283%29.png" data-mimetype="image/png" data-resize-width="365" />
                                     <div class="card-body">
                                         <h3 class="card-title" style="text-align: center;">
                                             <span style="font-size: 24px;">House made</span>
+                                            <br />
                                         </h3>
+                                        <p class="card-text o_default_snippet_text">
+                                            <br />
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section class="s_newsletter_block pt32 pb32 o_colored_level" data-snippet="s_newsletter_block" data-name="Newsletter block" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip715541">
+                <section class="s_newsletter_block bg-200 pt32 pb32 o_colored_level" data-snippet="s_newsletter_block" data-name="Newsletter block" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip715541">
                     <div class="container">
-                        <div class="row" data-original-title="" title="" aria-describedby="tooltip439383">
-                            <div class="pt24 pb24 o_colored_level col-lg-12" style="background-color: rgb(196, 220, 188) !important;">
+                        <div class="row">
+                            <div class="col-lg-8 offset-lg-2 pt24 pb24 o_colored_level">
                                 <h2 style="text-align: center;">
                                     Subscribe to our newsletter
                                     <br />
