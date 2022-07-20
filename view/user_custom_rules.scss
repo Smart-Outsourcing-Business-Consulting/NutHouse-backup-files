@@ -94,3 +94,26 @@
 }
 
 //END
+
+@media (min-device-width: 1360px) {
+    .article-wrapper {
+        float: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .image-outer-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .image-wrapper img {
+        position: relative;
+        transition: background .15s;
+        height: 680px;
+        width: auto;
+    }
+}
