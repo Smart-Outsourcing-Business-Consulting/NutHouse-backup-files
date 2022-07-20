@@ -1,0 +1,442 @@
+<t t-name="website.recipes">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <a id="top">
+                <section class="s_title o_colored_level pt0 pb8" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+                    <div class="s_allow_columns container">
+                        <h1 style="text-align: center;">
+                            <font style="font-size: 62px;">
+                                <span style="font-size: 36px;">Recipes</span>
+                            </font>
+                        </h1>
+                    </div>
+                </section>
+                <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" data-name="Picture" style="">
+                    <div class="container">
+                        <div class="row s_nb_column_fixed">
+                            <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                                <figure class="figure">
+                                    <img src="/web/image/6958-145383da/ezgif.com-gif-maker%20%288%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" data-original-id="6957" data-original-src="/web/image/6957-4bb70b91/ezgif.com-gif-maker%20%288%29.png" data-mimetype="image/png" data-resize-width="1296" style="padding: 0px !important;" />
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </a>
+            <section class="s_text_block o_colored_level pt0 pb8" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Vegan Baklava Recipe</span>
+                    </p>
+                    <p>
+                        <br />
+                        Delicious, rich and sweet baklava is a traditional Turkish dessert. It's made of layers of filo dough with cinnamon-scented pistachios and walnuts in the middle. This recipe is a 'healthier' version of baklava since no sugar or butter is used and it is vegan.
+                    </p>
+                    <p>
+                        <br />
+                        Posted on June 24, 2022
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip760768">
+                        <span style="text-decoration-line: underline;">
+                            <lt-highlighter style="display: none; z-index: auto !important;">
+                                <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 96.0268px !important; height: 35.9821px !important; transform: none !important; transform-origin: 49.0104px 18.9881px !important; zoom: 1 !important; margin-top: 1.01189px !important; margin-left: 0.997024px !important;">
+                                    <lt-div class="lt-highlighter__scroll-element" style="top: 0px !important; left: 0px !important; width: 96px !important; height: 35.9821px !important;" />
+                                </lt-div>
+                            </lt-highlighter>
+                            <a class="btn btn-primary" href="" data-lt-tmp-id="lt-709623" spellcheck="false" data-gramm="false" data-original-title="" title="">Read more</a>
+                        </span>
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6968-d080ecd3/ezgif.com-gif-maker%20%289%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6959" data-original-src="/web/image/6959-0d2a6c56/ezgif.com-gif-maker%20%289%29.png" data-mimetype="image/png" data-resize-width="799" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb16" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Baking with gluten-free flour - all you need to know</span>
+                    </p>
+                    <p>
+                        <br />
+                        Gluten can be found in a lot of delicious products, so a question we often get is: “Is it possible to bake/cook yummy things without gluten?” The answer is: YES! You don’t have to miss out on all the deliciousness.
+                    </p>
+                    <p>
+                        <br />
+                        Posted on June 07, 2022
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip795700">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="offset-lg-1 o_colored_level pb0 col-lg-11" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6964-23713f76/ezgif.com-gif-maker%20%2810%29.png" class="figure-img img-thumbnail padding-large mx-auto d-block" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="transform: scaleX(1.18) scaleY(1.03); animation-play-state: paused; transition: none 0s ease 0s; padding: 0px !important;" data-original-id="6960" data-original-src="/web/image/6960-c4253433/ezgif.com-gif-maker%20%2810%29.png" data-mimetype="image/png" data-resize-width="600" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb8" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">All about Sea Moss</span>
+                    </p>
+                    <p>
+                        <br />
+                        Sea moss is a type of weed that grows in the ocean. It grows in a number of colors, such as various shades of green, yellow, purple, red, brown, and black.
+                    </p>
+                    <p>
+                        <br />
+                        Posted on May 18, 2022
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip38586">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6967-a2b02c5c/ezgif.com-gif-maker%20%2811%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6961" data-original-src="/web/image/6961-97eb6d80/ezgif.com-gif-maker%20%2811%29.png" data-mimetype="image/png" data-resize-width="1280" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb80" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Eating nuts for healthy skin!</span>
+                    </p>
+                    <p>
+                        <br />
+                        When we think about improving our skin health, we think automatically of fancy skin care products, going to the salon or getting a facial. But have you ever thought about the fact that taking care of the way we look on the outside, starts with what we put into our bodies?
+                    </p>
+                    <p>
+                        &amp;nbsp;
+                        <br />
+                        Posted on October 07, 2021
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip276542">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                    <p class="o_default_snippet_text">
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6966-77b4b1b3/ezgif.com-gif-maker%20%2812%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="animation-play-state: paused; transition: none 0s ease 0s; transform: scaleX(1.25) scaleY(1.2); padding: 0px !important;" data-original-id="6962" data-original-src="/web/image/6962-2d455694/ezgif.com-gif-maker%20%2812%29.png" data-mimetype="image/png" data-resize-width="640" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb40" data-snippet="s_text_block" data-name="Text" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip971243">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <br />
+                    </p>
+                    <p>
+                        <span style="font-size: 24px;">Easy Goji Berry Soup (vegan)</span>
+                    </p>
+                    <p>
+                        <br />
+                        This soup is an easy way to add Goji Berries to your diet! Because soup is the most simple, yet most nutritious dish you can make, we love it! The Goji Berries in this recipe bring the nutritional values to the next level.
+                    </p>
+                    <p>
+                        &amp;nbsp;
+                        <br />
+                        Posted on August 04, 2021
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip547656">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6965-b00b43cb/ezgif.com-gif-maker%20%2813%29.png" class="figure-img padding-large img-thumbnail" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="transform: scaleX(1.33); animation-play-state: paused; transition: none 0s ease 0s; padding: 0px !important;" data-original-id="6963" data-original-src="/web/image/6963-df8b6def/ezgif.com-gif-maker%20%2813%29.png" data-mimetype="image/png" data-resize-width="597" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block pb40 o_colored_level pt0" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">The many health benefits of Goji Berries + TIPS!</span>
+                    </p>
+                    <p>
+                        <br />
+                        People from Asia have been using Goji berries for more than 2,000 years as a medical herb and food supplement. They say it restores the chi in the body. And they know what they are talking about... because goji berries have major health benefits which are backed by modern science!
+                    </p>
+                    <p>
+                        <br />
+                        Posted on August 02, 2021
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip452312">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6973-a7174802/ezgif.com-gif-maker%20%2814%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6969" data-original-src="/web/image/6969-7093c060/ezgif.com-gif-maker%20%2814%29.png" data-mimetype="image/png" data-resize-width="1296" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb16" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Basmati Rice Pilaf with Dried Apricots and Almonds</span>
+                    </p>
+                    <p>
+                        <br />
+                        Basmati rice is already full of flavor and this gets even more complimented by the ingredients added. This recipe makes a lovely side dish to serve for example with curries. The nuttiness of the almonds, the sweetness of the dried apricots and saltiness of the caramelized onions really take it to the next level!
+                    </p>
+                    <p>
+                        <br />
+                        Posted on April 05, 2021
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip839905">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                    <p class="o_default_snippet_text">
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6976-457ddb5c/ezgif.com-gif-maker%20%2815%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6970" data-original-src="/web/image/6970-c13495dc/ezgif.com-gif-maker%20%2815%29.png" data-mimetype="image/png" data-resize-width="1296" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb8" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Cashew Pasta Sauce (vegan)</span>
+                    </p>
+                    <p>
+                        <br />
+                        If you don’t eat dairy products, it can be hard to satisfy cravings for creamy pasta. Well, we’ve got the perfect recipe for you! This easy-to-make creamy sauce full of flavor is made from cashew nuts! Are you going to recreate this recipe or do you have your own variant of this dairy free alfredo sauce? Please share and tag us!
+                    </p>
+                    <p>
+                        <br />
+                        Posted on April 02, 2021
+                    </p>
+                    <p>
+                        <br />
+                        <a class="btn btn-primary" href="">
+                            Read more
+                            <br />
+                        </a>
+                        <br />
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6975-3bdb75b3/ezgif.com-gif-maker%20%2816%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6971" data-original-src="/web/image/6971-9a5733fd/ezgif.com-gif-maker%20%2816%29.png" data-mimetype="image/png" data-resize-width="1296" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb8" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Peanut Butter Recipe</span>
+                    </p>
+                    <p>
+                        <br />
+                        Homemade peanut butter! That sounds delicious right? We’ve made this home made peanut butter and it’s very easy! Below you can find the simple version of this recipe but you can add ingredients for extra flavor. For example: dark chocolate, sea salt, maple syrup, vanilla, or cinnamon.
+                    </p>
+                    <p>
+                        <br />
+                        Posted on March 18, 2021
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip331171">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6974-ed8ab1ec/ezgif.com-gif-maker%20%2817%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6972" data-original-src="/web/image/6972-de26cdae/ezgif.com-gif-maker%20%2817%29.png" data-mimetype="image/png" data-resize-width="799" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb16" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Salted Caramel Brownies (vegan)</span>
+                    </p>
+                    <p>
+                        <br />
+                        We've made these brownies according to the recipe from the School Night Vegan. They are very fudgy and gooey, and on top of that they are vegan! This recipe is a little bit more difficult compared to our other recipes. This is mainly due to the vegan caramel sauce. If this is too much for you, you can leave this out. But we promise you will not regret the extra effort!
+                    </p>
+                    <p>
+                        <br />
+                        Posted on March 15, 2021
+                    </p>
+                    <p>
+                        <br />
+                        <a class="btn btn-primary" href="">
+                            Read more
+                            <br />
+                        </a>
+                        <br />
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6980-301a1460/ezgif.com-gif-maker%20%2818%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6977" data-original-src="/web/image/6977-d953a02c/ezgif.com-gif-maker%20%2818%29.png" data-mimetype="image/png" data-resize-width="799" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb8" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="s_allow_columns o_container_small">
+                    <p>
+                        <span style="font-size: 24px;">Summer Salad</span>
+                    </p>
+                    <p>
+                        <br />
+                        When the days are hot we like to keep it simple and not be in the kitchen for hours. We’ve created this couscous salad for these kind of days loaded with fresh Nut House products! It contains pine nuts, seeds, cranberries, pecans and walnuts.
+                    </p>
+                    <p>
+                        &amp;nbsp;
+                        <br />
+                        Posted on March 14, 2021
+                    </p>
+                    <p>
+                        <br />
+                        <a class="btn btn-primary" href="">
+                            Read more
+                            <br />
+                        </a>
+                        <br />
+                    </p>
+                    <p>
+                        <br />
+                    </p>
+                </div>
+            </section>
+            <section class="s_picture o_colored_level pt0 pb0" data-snippet="s_picture" style="background-image: none;" data-name="Custom Picture">
+                <div class="container">
+                    <div class="row s_nb_column_fixed">
+                        <div class="col-lg-10 offset-lg-1 o_colored_level pb0" style="text-align: center;">
+                            <figure class="figure">
+                                <img src="/web/image/6979-aecfad55/ezgif.com-gif-maker%20%2819%29.png" class="figure-img img-thumbnail padding-large" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip237945" style="padding: 0px !important;" data-original-id="6978" data-original-src="/web/image/6978-98b627cf/ezgif.com-gif-maker%20%2819%29.png" data-mimetype="image/png" data-resize-width="1296" />
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_block o_colored_level pt0 pb56" data-snippet="s_text_block" data-name="Text" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip116578">
+                <div class="s_allow_columns o_container_small" data-original-title="" title="" aria-describedby="tooltip68675">
+                    <p>
+                        <span style="font-size: 24px;">Chickpea Curry Recipe (vegan)</span>
+                    </p>
+                    <p>
+                        <br />
+                        This recipe is better than takeout and easy to make at home. The crunch from the cashews is what makes this dish extra tasty. Feel free to change up the vegetables or add more of them. Choose full-fat coconut milk for its richness and be generous with the spices!
+                    </p>
+                    <p>
+                        <br />
+                        Posted on March 06, 2021
+                    </p>
+                    <p data-original-title="" title="" aria-describedby="tooltip252885">
+                        <br />
+                        <a class="btn btn-primary" href="">Read more</a>
+                        <br />
+                    </p>
+                    <p class="o_default_snippet_text">
+                        <br />
+                    </p>
+                </div>
+            </section>
+        </div>
+    </t>
+</t>

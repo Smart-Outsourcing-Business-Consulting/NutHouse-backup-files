@@ -1,496 +1,493 @@
 <t t-name="website.dry_fruitshomepage">
-    <t t-call="website.layout">
-        <t t-set="pageName" t-value="'homepage'" />
-        <div id="wrap">
-            <div class="oe_structure" />
-            <!---banner start- -->
-            <section class="banner">
-                <div class="container-fluid wrap">
-                    <t t-foreach="website.get_full_banner()" t-as="banner">
-                        <div class="banner_bg" t-attf-style="background-image:url('/website/image/home.banner/{{banner.id}}/image1')">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h1>
-                                        <t t-esc="banner.header" />
-                                    </h1>
-                                    <h3>
-                                        <t t-esc="banner.footer" />
-                                    </h3>
-                                    <div class="">
-                                        <form method="get" action="/shop">
-                                            <div class="input-group search-nav" style="width: max-content;">
-                                                <input type="text" name="search" placeholder="Search Here" class="search-query form-control oe_search_box" t-att-value="search" />
-                                                <div class="input-group-append">
-                                                    <button type="submit" class="site-btn btn btn-default oe_search_button">
-                                                        <span class="input-group-text btn_search">
+  <t t-call="website.layout">
+    <t t-set="pageName" t-value="'homepage'" />
+    <div id="wrap">
+      <div class="oe_structure" />
+      <!---banner start- -->
+      <section class="banner">
+        <a id="top">
+          <div class="container-fluid wrap">
+            <t t-foreach="website.get_full_banner()" t-as="banner">
+              <div class="banner_bg" t-attf-style="background-image:url('/website/image/home.banner/{{banner.id}}/image1')">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1>
+                      <t t-esc="banner.header" />
+                    </h1>
+                    <h3>
+                      <t t-esc="banner.footer" />
+                    </h3>
+                    <div class="">
+                      <form method="get" action="/shop">
+                        <div class="input-group search-nav" style="width: max-content;">
+                          <input type="text" name="search" placeholder="Search Here" class="search-query form-control oe_search_box" t-att-value="search" />
+                          <div class="input-group-append">
+                            <button type="submit" class="site-btn btn btn-default oe_search_button">
+                              <span class="input-group-text btn_search">
                                                                         Search
                                                                     </span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <a href="/shop">
-                                        <button>Shop Now</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </t>
-                </div>
-            </section>
-            <!-- -banner end- -->
-            <div class="oe_structure" />
-            <section class="category">
-                <div class="container-fluid wrap">
-                    <h2 class="">
-                        <span style="font-weight: normal; font-size: 24px;">Shop By Categories</span>
-                    </h2>
-                    <div class="carousel-wrap">
-                        <div id="category_item_list" class="owl-carousel category_list">
-                            <t t-foreach="website.get_product_category()" t-as="category">
-                                <div class="item">
-                                    <a href="#">
-                                        <div class="category_items">
-                                            <div class="category_item_img" style="background-color: #c4dcbc;">
-                                                <img t-attf-src="/website/image/product.public.category/{{category.category_id.id}}/image_1920" t-att-alt="category.category_id.name" class="w-100" />
-                                            </div>
-                                            <p>
-                                                <t t-esc="category.category_id.name" />
-                                            </p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </t>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div class="oe_structure" />
-            <section class="offer">
-                <div class="container-fluid wrap">
-                    <div class="row">
-                        <t t-foreach="website.get_offers()" t-as="offer">
-                            <div class="col-lg-6 col-md-12 mb-4">
-                                <div class="offer_1" t-attf-style="background-image:url('/website/image/offer.one/{{offer.id}}/image1')">
-                                    <h1>
-                                        <t t-esc="offer.header" />
-                                    </h1>
-                                    <button>Order Now</button>
-                                </div>
-                            </div>
-                        </t>
-                    </div>
-                </div>
-            </section>
-            <div class="oe_structure" />
-            <section class="popular_products">
-                <div class="container-fluid wrap">
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <h2>
-                                <font style="background-color: inherit; font-size: 24px;">Most loved products</font>
-                            </h2>
-                        </div>
-                        <div class="ml-auto">
-                            <button class="view-more-btn" data-original-title="" title="" aria-describedby="tooltip880646">
-                                <a href="https://nuthousecuracao.com/collections/most-liked-products" data-original-title="" title="" aria-describedby="popover594757">View All</a>
                             </button>
+                          </div>
                         </div>
+                      </form>
                     </div>
-                    <div class="row">
-                        <t t-foreach="website.get_popular_products()" t-as="product">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="product_main">
-                                    <img t-attf-src="/website/image/product.template/{{product.product_id.id}}/image_1920" t-att-alt="product.product_id.name" class="img-fluid" />
-                                    <a t-att-href="'/shop/product/%s' % slug(product.product_id)" class="">
-                                        <button class="add_to_cart" data-original-title="" title="" aria-describedby="tooltip714333">
-                                            <span style="font-size: 14px; font-weight: normal; font-style: normal;" data-original-title="" title="" aria-describedby="tooltip349889">Shop Now</span>
-                                        </button>
-                                    </a>
-                                    <h3>
-                                        <span class="price">
-                                            <t t-set="combination_info" t-value="product.product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)" />
-                                            <span t-if="combination_info['has_discounted_price']">
-                                                <del>
-                                                    <span class="woocommerce-Price-amount amount">
-                                                        <t t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
-                                                    </span>
-                                                </del>
-                                            </span>
-                                            <ins>
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <t t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
-                                                </span>
-                                            </ins>
-                                        </span>
-                                    </h3>
-                                    <h4>
-                                        <t t-esc="product.product_id.name" />
-                                    </h4>
-                                </div>
-                            </div>
-                        </t>
-                    </div>
+                    <a href="/shop">
+                      <button>Shop Now</button>
+                    </a>
+                  </div>
                 </div>
-            </section>
-            <div class="oe_structure" />
-            <section class="popular_products">
-                <div class="container-fluid wrap">
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <h2>
-                                B
-                                <span style="font-size: 36px;">​</span>
-                                logs &amp;amp; Recipes
-                            </h2>
-                        </div>
-                        <div class="ml-auto">
-                            <button class="view-more-btn">
-                                <a href="https://nuthousecuracao.com/blogs/news" data-original-title="" title="">View All</a>
-                            </button>
-                        </div>
+              </div>
+            </t>
+          </div>
+        </a>
+      </section>
+      <!-- -banner end- -->
+      <div class="oe_structure" />
+      <section class="category">
+        <div class="container-fluid wrap">
+          <h2 class="">
+            <span style="font-weight: normal; font-size: 24px;">Shop By Categories</span>
+          </h2>
+          <div class="carousel-wrap">
+            <div id="category_item_list" class="owl-carousel category_list">
+              <t t-foreach="website.get_product_category()" t-as="category">
+                <div class="item">
+                  <a href="#">
+                    <div class="category_items">
+                      <div class="category_item_img" style="background-color: #c4dcbc;">
+                        <img t-attf-src="/website/image/product.public.category/{{category.category_id.id}}/image_1920" t-att-alt="category.category_id.name" class="w-100" />
+                      </div>
+                      <p>
+                        <t t-esc="category.category_id.name" />
+                      </p>
                     </div>
-                    <div class="row">
-                        <t t-foreach="website.get_week_best_selling()" t-as="product">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="product_main">
-                                    <img t-attf-src="/website/image/product.template/{{product.product_id.id}}/image_1920" t-att-alt="product.product_id.name" class="img-fluid" />
-                                    <a t-att-href="'/shop/product/%s' % slug(product.product_id)">
-                                        <button class="add_to_cart">Shop Now</button>
-                                    </a>
-                                    <h3>
-                                        <span class="price">
-                                            <t t-set="combination_info" t-value="product.product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)" />
-                                            <span t-if="combination_info['has_discounted_price']">
-                                                <del>
-                                                    <span class="woocommerce-Price-amount amount">
-                                                        <t t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
-                                                    </span>
-                                                </del>
-                                            </span>
-                                            <ins>
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <t t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
-                                                </span>
-                                            </ins>
-                                        </span>
-                                    </h3>
-                                    <h4>
-                                        <t t-esc="product.product_id.name" />
-                                    </h4>
-                                </div>
-                            </div>
-                        </t>
-                    </div>
+                  </a>
                 </div>
-            </section>
-            <div class="oe_structure">
-                <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="">
-                    <div class="container">
-                        <div class="row d-flex align-items-stretch">
-                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
-                                <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top" src="/web/image/6816-fdb738e3/ezgif-3-51198b8fe6.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip358326" data-original-id="6676" data-original-src="/web/image/6676-188ce23d/ezgif-3-51198b8fe6.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-quality="100" />
-                                    <div class="card-body">
-                                        <h3 class="card-title">
-                                            <span style="font-size: 24px;">Vegan Baklava Recipe</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text">
-                                            Delicious, rich and sweet baklava is a traditional Turkish dessert. It's made of layers of filo dough with cinnamon-scented pistachios and walnuts in the middle. This recipe is a 'healthier' version of baklava since no sugar or butter is used and it is vegan.
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
-                                <div class="card bg-white h-100">
-                                    <img class="card-img-top" src="/web/image/6815-beb12d7c/ezgif.com-gif-maker%20%281%29.jpg" alt="" loading="lazy" data-original-id="6677" data-original-src="/web/image/6677-91b23c69/ezgif.com-gif-maker%20%281%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-original-title="" title="" aria-describedby="tooltip956302" data-quality="100" />
-                                    <div class="card-body">
-                                        <h3 class="card-title">
-                                            <span style="font-size: 24px;">Baking with gluten-free flour - all you need to know</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text">
-                                            Gluten can be found in a lot of delicious products, so a question we often get is: “Is it possible to bake/cook yummy things without gluten?” The answer is: YES! You don’t have to miss out on all the deliciousness.
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 s_col_no_bgcolor pt16 pb16">
-                                <div class="card bg-white h-100">
-                                    <img class="card-img-top" src="/web/image/6811-300ce771/ezgif.com-gif-maker%20%2810%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip369120" style="" data-original-id="6795" data-original-src="/web/image/6795-d8f9e327/ezgif.com-gif-maker%20%2810%29.jpg" data-mimetype="image/jpeg" data-resize-width="500" data-quality="100" />
-                                    <div class="card-body">
-                                        <h3 class="card-title">
-                                            <span style="font-size: 24px;">All about Sea Moss</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text">
-                                            Sea moss is a type of weed that grows in the ocean. It grows in a number of colors, such as various shades of green, yellow, purple, red, brown, and black.
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+              </t>
             </div>
-            <section class="half_banner">
-                <div class="container-fluid wrap">
-                    <t t-foreach="website.get_half_banner()" t-as="half_banner">
-                        <div class="half_banner_bg" t-attf-style="background-image:url('/website/image/half.banner/{{half_banner.id}}/image1')">
-                            <div class="row">
-                                <div class="col-lg-5 col-md-6 my-auto">
-                                    <h3>
-                                        <t t-esc="half_banner.header" />
-                                    </h3>
-                                    <p>
-                                        <t t-esc="half_banner.footer" />
-                                    </p>
-                                    <a href="/shop">
-                                        <button>Order Now</button>
-                                    </a>
-                                </div>
-                                <div class="col-lg-7 col-md-6">
-                                    <div class="carousel-wrap">
-                                        <div id="offer_item_list" class="owl-carousel category_list">
-                                            <t t-foreach="website.get_weekly_offers()" t-as="weekly_offer_banner">
-                                                <div class="item">
-                                                    <a href="#">
-                                                        <div class="half_bnr_slide">
-                                                            <img t-attf-src="/website/image/weekly.offer/{{weekly_offer_banner.id}}/image1" class="img-fluid mx-auto d-block" />
-                                                            <p>
-                                                                <t t-esc="weekly_offer_banner.heading" />
-                                                            </p>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </t>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </t>
+          </div>
+        </div>
+      </section>
+      <div class="oe_structure" />
+      <section class="offer">
+        <div class="container-fluid wrap">
+          <div class="row">
+            <t t-foreach="website.get_offers()" t-as="offer">
+              <div class="col-lg-6 col-md-12 mb-4">
+                <div class="offer_1" t-attf-style="background-image:url('/website/image/offer.one/{{offer.id}}/image1')">
+                  <h1>
+                    <t t-esc="offer.header" />
+                  </h1>
+                  <button>Order Now</button>
                 </div>
-            </section>
-            <div class="oe_structure" />
-            <section class="brands">
-                <div class="container-fluid wrap">
-                    <div class="d-flex align-items-center">
-                        <div>
-                            <h2>
+              </div>
+            </t>
+          </div>
+        </div>
+      </section>
+      <div class="oe_structure" />
+      <section class="popular_products">
+        <div class="container-fluid wrap">
+          <div class="d-flex align-items-center">
+            <div>
+              <h2>
+                <font style="background-color: inherit; font-size: 24px;">Most loved products</font>
+              </h2>
+            </div>
+            <div class="ml-auto">
+              <button class="view-more-btn" data-original-title="" title="" aria-describedby="tooltip880646">
+                <a href="https://nuthousecuracao.com/collections/most-liked-products" data-original-title="" title="" aria-describedby="popover594757">View All</a>
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <t t-foreach="website.get_popular_products()" t-as="product">
+              <div class="col-lg-3 col-sm-6">
+                <div class="product_main">
+                  <img t-attf-src="/website/image/product.template/{{product.product_id.id}}/image_1920" t-att-alt="product.product_id.name" class="img-fluid" />
+                  <a t-att-href="'/shop/product/%s' % slug(product.product_id)" class="">
+                    <button class="add_to_cart" data-original-title="" title="" aria-describedby="tooltip714333">
+                      <span style="font-size: 14px; font-weight: normal; font-style: normal;" data-original-title="" title="" aria-describedby="tooltip349889">Shop Now</span>
+                    </button>
+                  </a>
+                  <h3>
+                    <span class="price">
+                      <t t-set="combination_info" t-value="product.product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)" />
+                      <span t-if="combination_info['has_discounted_price']">
+                        <del>
+                          <span class="woocommerce-Price-amount amount">
+                            <t t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                          </span>
+                        </del>
+                      </span>
+                      <ins>
+                        <span class="woocommerce-Price-amount amount">
+                          <t t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                        </span>
+                      </ins>
+                    </span>
+                  </h3>
+                  <h4>
+                    <t t-esc="product.product_id.name" />
+                  </h4>
+                </div>
+              </div>
+            </t>
+          </div>
+        </div>
+      </section>
+      <div class="oe_structure" />
+      <section class="popular_products">
+        <div class="container-fluid wrap">
+          <div class="d-flex align-items-center">
+            <div>
+              <h2>
+                B
+                <span style="font-size: 36px;">​</span>
+                logs &amp;amp; Recipes
+              </h2>
+            </div>
+            <div class="ml-auto">
+              <button class="view-more-btn">
+                <a href="https://nuthousecuracao.com/blogs/news" data-original-title="" title="">View All</a>
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <t t-foreach="website.get_week_best_selling()" t-as="product">
+              <div class="col-lg-3 col-sm-6">
+                <div class="product_main">
+                  <img t-attf-src="/website/image/product.template/{{product.product_id.id}}/image_1920" t-att-alt="product.product_id.name" class="img-fluid" />
+                  <a t-att-href="'/shop/product/%s' % slug(product.product_id)">
+                    <button class="add_to_cart">Shop Now</button>
+                  </a>
+                  <h3>
+                    <span class="price">
+                      <t t-set="combination_info" t-value="product.product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)" />
+                      <span t-if="combination_info['has_discounted_price']">
+                        <del>
+                          <span class="woocommerce-Price-amount amount">
+                            <t t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                          </span>
+                        </del>
+                      </span>
+                      <ins>
+                        <span class="woocommerce-Price-amount amount">
+                          <t t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                        </span>
+                      </ins>
+                    </span>
+                  </h3>
+                  <h4>
+                    <t t-esc="product.product_id.name" />
+                  </h4>
+                </div>
+              </div>
+            </t>
+          </div>
+        </div>
+      </section>
+      <div class="oe_structure">
+        <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;padding-left: 120px;border-right-width: 120px;padding-right: 120px;">
+          <div class="container-fluid">
+            <div class="row d-flex align-items-stretch">
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card bg-white h-100" style="">
+                  <img class="card-img-top rounded" src="/web/image/6816-fdb738e3/ezgif-3-51198b8fe6.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip358326" data-original-id="6676" data-original-src="/web/image/6676-188ce23d/ezgif-3-51198b8fe6.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-quality="100" />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <span style="font-size: 24px;">Vegan Baklava Recipe</span>
+                      <br />
+                    </h3>
+                    <p class="card-text">
+                      Delicious, rich and sweet baklava is a traditional Turkish dessert. It's made of layers of filo dough with cinnamon-scented pistachios and walnuts in the middle. This recipe is a 'healthier' version of baklava since no sugar or butter is used and it is vegan.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card bg-white h-100">
+                  <img class="card-img-top rounded" src="/web/image/6815-beb12d7c/ezgif.com-gif-maker%20%281%29.jpg" alt="" loading="lazy" data-original-id="6677" data-original-src="/web/image/6677-91b23c69/ezgif.com-gif-maker%20%281%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" data-original-title="" title="" aria-describedby="tooltip956302" data-quality="100" />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <span style="font-size: 24px;">Baking with gluten-free flour all you need to know</span>
+                      <br />
+                    </h3>
+                    <p class="card-text">
+                      Gluten can be found in a lot of delicious products, so a question we often get is: “Is it possible to bake/cook yummy things without gluten?” The answer is: YES! You don’t have to miss out on all the deliciousness.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-4">
+                <div class="card bg-white h-100">
+                  <img class="card-img-top rounded" src="/web/image/6811-300ce771/ezgif.com-gif-maker%20%2810%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip369120" style="" data-original-id="6795" data-original-src="/web/image/6795-d8f9e327/ezgif.com-gif-maker%20%2810%29.jpg" data-mimetype="image/jpeg" data-resize-width="500" data-quality="100" />
+                  <div class="card-body">
+                    <h3 class="card-title">
+                      <span style="font-size: 24px;">All about Sea Moss</span>
+                      <br />
+                    </h3>
+                    <p class="card-text">
+                      Sea moss is a type of weed that grows in the ocean. It grows in a number of colors, such as various shades of green, yellow, purple, red, brown, and black.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="half_banner">
+        <div class="container-fluid wrap">
+          <t t-foreach="website.get_half_banner()" t-as="half_banner">
+            <div class="half_banner_bg" t-attf-style="background-image:url('/website/image/half.banner/{{half_banner.id}}/image1')">
+              <div class="row">
+                <div class="col-lg-5 col-md-6 my-auto">
+                  <h3>
+                    <t t-esc="half_banner.header" />
+                  </h3>
+                  <p>
+                    <t t-esc="half_banner.footer" />
+                  </p>
+                  <a href="/shop">
+                    <button>Order Now</button>
+                  </a>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                  <div class="carousel-wrap">
+                    <div id="offer_item_list" class="owl-carousel category_list">
+                      <t t-foreach="website.get_weekly_offers()" t-as="weekly_offer_banner">
+                        <div class="item">
+                          <a href="#">
+                            <div class="half_bnr_slide">
+                              <img t-attf-src="/website/image/weekly.offer/{{weekly_offer_banner.id}}/image1" class="img-fluid mx-auto d-block" />
+                              <p>
+                                <t t-esc="weekly_offer_banner.heading" />
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                      </t>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </t>
+        </div>
+      </section>
+      <div class="oe_structure" />
+      <section class="brands">
+        <div class="container-fluid wrap">
+          <div class="d-flex align-items-center">
+            <div>
+              <h2>
                 Colle​ctions
               </h2>
-                        </div>
-                        <div class="ml-auto">
-                            <button class="view-more-btn" data-original-title="" title="" aria-describedby="tooltip471959">
-                                <a href="https://nuthousecuracao.com/collections" data-original-title="" title="">View All</a>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <t t-foreach="website.get_brand()" t-as="product">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="brand_main">
-                                    <div class="card_brand">
-                                        <img t-attf-src="/website/image/product.template/{{product.product_id.id}}/image_1920" t-att-alt="product.product_id.name" class="img-fluid mx-auto d-block" />
-                                        <a t-att-href="'/shop/product/%s' % slug(product.product_id)">
-                                            <button class="">Shop Now</button>
-                                        </a>
-                                    </div>
-                                    <h3>
-                                        <span class="price">
-                                            <t t-set="combination_info" t-value="product.product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)" />
-                                            <span t-if="combination_info['has_discounted_price']">
-                                                <del>
-                                                    <span class="woocommerce-Price-amount amount">
-                                                        <t t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
-                                                    </span>
-                                                </del>
-                                            </span>
-                                            <ins>
-                                                <span class="woocommerce-Price-amount amount">
-                                                    <t t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
-                                                </span>
-                                            </ins>
-                                        </span>
-                                    </h3>
-                                    <h4>
-                                        <t t-esc="product.product_id.name" />
-                                    </h4>
-                                </div>
-                            </div>
-                        </t>
-                    </div>
-                </div>
-            </section>
-            <div class="oe_structure">
-                <section class="s_three_columns pb32 o_colored_level pt32" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
-                    <div class="container">
-                        <div class="row d-flex align-items-stretch">
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
-                                <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top" src="/web/image/6810-480283ad/blue-green-algae-w4h2bv%20%281%29.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip599466" data-original-id="6808" data-original-src="/web/image/6808-a5d1e500/blue-green-algae-w4h2bv%20%281%29.png" data-mimetype="image/png" data-resize-width="281" style="" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <span style="font-size: 24px;">Nature food</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
-                                <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top" src="/web/image/6812-e0ad22c4/Medjul-Dates-Jumbo.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip276715" style="" data-original-id="6809" data-original-src="/web/image/6809-97a28c7e/Medjul-Dates-Jumbo.jpg" data-mimetype="image/jpeg" data-resize-width="450" data-quality="100" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <span style="font-size: 24px;">Dried Fruit</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
-                                <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top" src="/web/image/6814-eb7f6141/ezgif.com-gif-maker%20%2871%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip906424" style="" data-original-id="6805" data-original-src="/web/image/6805-f0111550/ezgif.com-gif-maker%20%2871%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-quality="100" />
-                                    <div class="card-body" data-original-title="" title="" aria-describedby="tooltip300257">
-                                        <h3 class="card-title" data-original-title="" title="" aria-describedby="tooltip915025" style="text-align: center;">
-                                            <font style="color: inherit; background-color: inherit; text-decoration-line: line-through;" />
-                                            <font class="text-black" data-original-title="" title="" aria-describedby="tooltip739109" style="font-size: 24px;">Gifts &amp;amp; Specials</font>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
-                                <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top" src="/web/image/6813-f0bfc83e/macadamianutbutter1.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip912602" data-original-id="6806" data-original-src="/web/image/6806-18943180/macadamianutbutter1.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <font style="color: inherit; font-size: 24px;">Nut Butters</font>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="s_text_block pt40 o_colored_level pb32" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
-                    <h2>
-                        <div class="s_allow_columns container">
-                            <h2 style="text-align: left;" data-original-title="" title="" aria-describedby="tooltip258730">In The Spotlight</h2>
-                            <h2 />
-                            <div class="ml-auto">
-                                <p data-original-title="" title="" aria-describedby="tooltip47660" style="text-align: left;">
-                                    <a href="https://nuthousecuracao.com/collections" data-original-title="" title="">View All</a>
-                                    <br />
-                                </p>
-                            </div>
-                        </div>
-                    </h2>
-                </section>
-                <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="">
-                    <div class="container">
-                        <div class="row d-flex align-items-stretch">
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
-                                <div class="card bg-white h-100" style="">
-                                    <img class="card-img-top" src="/web/image/6818-496f2594/ezgif.com-gif-maker.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip111820" data-original-id="6817" data-original-src="/web/image/6817-0725f307/ezgif.com-gif-maker.png" data-mimetype="image/png" data-resize-width="690" style="" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <span style="font-size: 24px;">Bliss Balls</span>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
-                                <div class="card bg-white h-100">
-                                    <img class="card-img-top" src="/web/image/6828-f7d26fd1/ezgif.com-gif-maker%20%281%29.png" alt="" loading="lazy" style="" data-original-id="6824" data-original-src="/web/image/6824-c94cc312/ezgif.com-gif-maker%20%281%29.png" data-mimetype="image/png" data-resize-width="203" data-original-title="" title="" aria-describedby="tooltip340445" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <span style="font-size: 24px;">Vegan Cheese</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
-                                <div class="card bg-white h-100">
-                                    <img class="card-img-top" src="/web/image/6827-0a75f761/18a0a08ff1de437aa8a1a689305fcff2.jfif" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip352222" data-original-id="6825" data-original-src="/web/image/6825-f48f4279/18a0a08ff1de437aa8a1a689305fcff2.jfif" data-mimetype="image/jpeg" data-resize-width="562" data-quality="100" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <span style="font-size: 24px;">Nut Mixes</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
-                                <div class="card bg-white h-100">
-                                    <img class="card-img-top" src="/web/image/6829-f58ff7eb/ezgif.com-gif-maker%20%283%29.png" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip578580" data-original-id="6826" data-original-src="/web/image/6826-9a3d08ff/ezgif.com-gif-maker%20%283%29.png" data-mimetype="image/png" data-resize-width="365" />
-                                    <div class="card-body">
-                                        <h3 class="card-title" style="text-align: center;">
-                                            <span style="font-size: 24px;">House made</span>
-                                            <br />
-                                        </h3>
-                                        <p class="card-text o_default_snippet_text">
-                                            <br />
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="s_newsletter_block bg-200 pt32 pb32 o_colored_level" data-snippet="s_newsletter_block" data-name="Newsletter block" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip715541">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-8 offset-lg-2 pt24 pb24 o_colored_level">
-                                <h2 style="text-align: center;">
-                                    Subscribe to our newsletter
-                                    <br />
-                                    <br />
-                                </h2>
-                                <p style="text-align: center;">Promotions, new products and sales. Directly to your inbox.</p>
-                                <p>
-                                    <br />
-                                </p>
-                                <div class="s_newsletter_subscribe_form js_subscribe" data-vxml="001" data-list-id="1" data-name="Newsletter Form" data-snippet="s_newsletter_subscribe_form">
-                                    <div class="input-group">
-                                        <input type="email" name="email" class="js_subscribe_email form-control" placeholder="your email..." />
-                                        <span class="input-group-append">
-                                            <a role="button" href="#" class="btn btn-primary js_subscribe_btn o_submit o_default_snippet_text">Subscribe</a>
-                                            <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none o_submit o_default_snippet_text" disabled="disabled">Thank</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
+            <div class="ml-auto">
+              <button class="view-more-btn" data-original-title="" title="" aria-describedby="tooltip471959">
+                <a href="https://nuthousecuracao.com/collections" data-original-title="" title="">View All</a>
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <t t-foreach="website.get_brand()" t-as="product">
+              <div class="col-lg-3 col-sm-6">
+                <div class="brand_main">
+                  <div class="card_brand">
+                    <img t-attf-src="/website/image/product.template/{{product.product_id.id}}/image_1920" t-att-alt="product.product_id.name" class="img-fluid mx-auto d-block" />
+                    <a t-att-href="'/shop/product/%s' % slug(product.product_id)">
+                      <button class="">Shop Now</button>
+                    </a>
+                  </div>
+                  <h3>
+                    <span class="price">
+                      <t t-set="combination_info" t-value="product.product_id._get_combination_info(only_template=True, add_qty=add_qty or 1, pricelist=pricelist)" />
+                      <span t-if="combination_info['has_discounted_price']">
+                        <del>
+                          <span class="woocommerce-Price-amount amount">
+                            <t t-esc="combination_info['list_price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                          </span>
+                        </del>
+                      </span>
+                      <ins>
+                        <span class="woocommerce-Price-amount amount">
+                          <t t-esc="combination_info['price']" t-options="{'widget': 'monetary', 'display_currency': website.currency_id}" />
+                        </span>
+                      </ins>
+                    </span>
+                  </h3>
+                  <h4>
+                    <t t-esc="product.product_id.name" />
+                  </h4>
+                </div>
+              </div>
+            </t>
+          </div>
         </div>
-    </t>
+      </section>
+      <div class="oe_structure">
+        <section class="s_three_columns pb32 o_colored_level pt32" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;padding-left: 120px;padding-right: 120px;">
+          <div class="container-fluid">
+            <div class="row d-flex align-items-stretch">
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white h-100" style="">
+                  <img class="card-img-top rounded" src="/web/image/6810-480283ad/blue-green-algae-w4h2bv%20%281%29.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip599466" data-original-id="6808" data-original-src="/web/image/6808-a5d1e500/blue-green-algae-w4h2bv%20%281%29.png" data-mimetype="image/png" data-resize-width="281" style="" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <span style="font-size: 24px;">Nature food</span>
+                      <br />
+                    </h3>
+                    <p class="card-text o_default_snippet_text">
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white h-100" style="">
+                  <img class="card-img-top rounded" src="/web/image/6812-e0ad22c4/Medjul-Dates-Jumbo.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip276715" style="" data-original-id="6809" data-original-src="/web/image/6809-97a28c7e/Medjul-Dates-Jumbo.jpg" data-mimetype="image/jpeg" data-resize-width="450" data-quality="100" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <span style="font-size: 24px;">Dried Fruit</span>
+                      <br />
+                    </h3>
+                    <p class="card-text o_default_snippet_text">
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white h-100" style="">
+                  <img class="card-img-top rounded" src="/web/image/6814-eb7f6141/ezgif.com-gif-maker%20%2871%29.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip906424" style="" data-original-id="6805" data-original-src="/web/image/6805-f0111550/ezgif.com-gif-maker%20%2871%29.jpg" data-mimetype="image/jpeg" data-resize-width="690" data-quality="100" />
+                  <div class="card-body" data-original-title="" title="" aria-describedby="tooltip300257">
+                    <h3 class="card-title" data-original-title="" title="" aria-describedby="tooltip915025" style="text-align: center;">
+                      <font style="color: inherit; background-color: inherit; text-decoration-line: line-through;" />
+                      <font class="text-black" data-original-title="" title="" aria-describedby="tooltip739109" style="font-size: 24px;">Gifts &amp;amp; Specials</font>
+                      <br />
+                    </h3>
+                    <p class="card-text o_default_snippet_text">
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3">
+                <div class="card bg-white h-100" style="">
+                  <img class="card-img-top rounded" src="/web/image/6813-f0bfc83e/macadamianutbutter1.jpg" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip912602" data-original-id="6806" data-original-src="/web/image/6806-18943180/macadamianutbutter1.jpg" data-mimetype="image/jpeg" data-resize-width="690" style="" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <font style="color: inherit; font-size: 24px;">Nut Butters</font>
+                      <br />
+                    </h3>
+                    <p class="card-text o_default_snippet_text">
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_title o_colored_level pb8 pt144" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip887859">
+          <div class="s_allow_columns container-fluid">
+            <h2 style="" data-original-title="" title="" aria-describedby="tooltip798556">
+              <span style="" data-original-title="" title="" aria-describedby="tooltip93681">
+                In the spotlight
+                <a href="https://nuthousecuracao.com/collections" data-original-title="" title="" style="border-width: 1px; border-style: solid; border-color: rgb(11, 147, 11);" class="btn btn-custom text-o-color-1">
+                  <span style="font-weight: bolder; font-size: 18px;" data-original-title="" title="" aria-describedby="tooltip670102">View A</span>
+                  <span style="font-weight: bolder; font-size: 18px;">ll</span>
+                </a>
+              </span>
+            </h2>
+          </div>
+        </section>
+        <section class="s_three_columns pt32 pb32 o_colored_level" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-image: none;">
+          <div class="container-fluid">
+            <div class="row d-flex align-items-stretch">
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
+                <div class="card bg-white h-100" style="">
+                  <img class="card-img-top rounded" src="/web/image/6949-ff996832/ezgif.com-gif-maker.png" alt="" loading="lazy" data-original-title="" title="" aria-describedby="tooltip111820" data-original-id="6817" data-original-src="/web/image/6817-0725f307/ezgif.com-gif-maker.png" data-mimetype="image/png" data-resize-width="748" style="" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <span style="font-size: 24px;">Bliss Balls</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
+                <div class="card bg-white h-100">
+                  <img class="card-img-top rounded" src="/web/image/6828-f7d26fd1/ezgif.com-gif-maker%20%281%29.png" alt="" loading="lazy" style="" data-original-id="6824" data-original-src="/web/image/6824-c94cc312/ezgif.com-gif-maker%20%281%29.png" data-mimetype="image/png" data-resize-width="203" data-original-title="" title="" aria-describedby="tooltip340445" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <span style="font-size: 24px;">Vegan Cheese</span>
+                      <br />
+                    </h3>
+                    <p class="card-text o_default_snippet_text">
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
+                <div class="card bg-white h-100">
+                  <img class="card-img-top rounded" src="/web/image/6827-0a75f761/18a0a08ff1de437aa8a1a689305fcff2.jfif" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip352222" data-original-id="6825" data-original-src="/web/image/6825-f48f4279/18a0a08ff1de437aa8a1a689305fcff2.jfif" data-mimetype="image/jpeg" data-resize-width="562" data-quality="100" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <span style="font-size: 24px;">Nut Mixes</span>
+                      <br />
+                    </h3>
+                    <p class="card-text o_default_snippet_text">
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="s_col_no_bgcolor pt16 pb16 col-lg-3 o_visible o_animated o_animating" style="animation-play-state: running; visibility: visible;">
+                <div class="card bg-white h-100">
+                  <img class="card-img-top rounded" src="/web/image/6829-f58ff7eb/ezgif.com-gif-maker%20%283%29.png" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip578580" data-original-id="6826" data-original-src="/web/image/6826-9a3d08ff/ezgif.com-gif-maker%20%283%29.png" data-mimetype="image/png" data-resize-width="365" />
+                  <div class="card-body">
+                    <h3 class="card-title" style="text-align: center;">
+                      <span style="font-size: 24px;">House made</span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="s_newsletter_block pt32 pb32 o_colored_level" data-snippet="s_newsletter_block" data-name="Newsletter block" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip715541">
+          <div class="container">
+            <div class="row" data-original-title="" title="" aria-describedby="tooltip439383">
+              <div class="pt24 pb24 o_colored_level col-lg-12" style="background-color: rgb(196, 220, 188) !important;">
+                <h2 style="text-align: center;">
+                  Subscribe to our newsletter
+                  <br />
+                  <br />
+                </h2>
+                <p style="text-align: center;">Promotions, new products and sales. Directly to your inbox.</p>
+                <p>
+                  <br />
+                </p>
+                <div class="s_newsletter_subscribe_form js_subscribe" data-vxml="001" data-list-id="1" data-name="Newsletter Form" data-snippet="s_newsletter_subscribe_form">
+                  <div class="input-group">
+                    <input type="email" name="email" class="js_subscribe_email form-control" placeholder="your email..." />
+                    <span class="input-group-append">
+                      <a role="button" href="#" class="btn btn-primary js_subscribe_btn o_submit o_default_snippet_text">Subscribe</a>
+                      <a role="button" href="#" class="btn btn-success js_subscribed_btn d-none o_submit o_default_snippet_text" disabled="disabled">Thank</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </t>
 </t>
