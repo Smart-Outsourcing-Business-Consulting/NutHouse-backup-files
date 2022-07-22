@@ -1,0 +1,225 @@
+<t t-name="website.career">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="pt16 pb16 o_colored_level col-lg-5 offset-lg-1">
+                            <a id="top">
+                                <h1>
+                                    <a />
+                                    Wanted: Sane Sister or Brother
+                                </h1>
+                            </a>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>Are you a positive and enthusiastic person who enjoys mornings and makes customers smile first thing in the morning?</h4>
+                            <p>
+                                <br />
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-primary mb-2" data-original-title="" title="">Yes busted, that's me for sure!</a>
+                                <br />
+                            </p>
+                        </div>
+                        <div class="o_colored_level pb0 pt0 col-lg-5 offset-lg-1" style="">
+                            <img src="/web/image/7162-f880fb87/1.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip58997" data-original-id="7154" data-original-src="/web/image/7154-6e0eff97/1.png" data-mimetype="image/png" data-resize-width="690" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="o_colored_level pb0 pt0 col-lg-6">
+                            <img src="/web/image/7170-840a55cb/2.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip576663" data-original-id="7155" data-original-src="/web/image/7155-5ebffff2/2.png" data-mimetype="image/png" data-resize-width="768" />
+                        </div>
+                        <div class="pt16 pb16 o_colored_level col-lg-5">
+                            <h1>Team member operations</h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>We're always looking for all-round team members who can help us out in the warehouse and in the roastery: roasting nuts, packing products, picking orders, making nut butters, bliss balls.</h4>
+                            <p>
+                                <br />
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-primary mb-2" data-original-title="" title="">Yes me! Please I'd like to read more!</a>
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;" data-original-title="" title="" aria-describedby="tooltip850282">
+                <div class="container-fluid">
+                    <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip854308">
+                        <div class="pt16 pb16 o_colored_level col-lg-5 offset-lg-1" data-original-title="" title="" aria-describedby="tooltip205687">
+                            <h1 style="text-align: left;">Manager Juice Bar</h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4 style="text-align: left;">Do you have experience running a bar and/or managing a shop? And do you have a passion for healthy food?</h4>
+                            <p class="o_default_snippet_text">
+                                <br />
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-primary mb-2" data-original-title="" title="">Yes! Please tell me more!</a>
+                                <br />
+                            </p>
+                        </div>
+                        <div class="o_colored_level pt0 pb0 col-lg-5 offset-lg-1">
+                            <img src="/web/image/7166-7ffc3aef/3.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-id="7156" data-original-src="/web/image/7156-b2c888be/3.png" data-mimetype="image/png" data-resize-width="690" data-original-title="" title="" aria-describedby="tooltip400235" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_title o_colored_level pb144 pt120" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgb(244, 242, 233) !important; background-image: none;">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: center;">
+                        <font style="font-size: 62px;">INTERNSHIPS</font>
+                        <br />
+                    </h1>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="o_colored_level pt0 col-lg-5 pb0">
+                            <img src="/web/image/7165-a57af65e/4.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-id="7157" data-original-src="/web/image/7157-eb5b8544/4.png" data-mimetype="image/png" data-resize-width="690" data-original-title="" title="" aria-describedby="tooltip363030" />
+                        </div>
+                        <div class="pt16 pb16 o_colored_level col-lg-6">
+                            <h1>
+                                Internship:
+                                <br />
+                                Finance &amp;amp; Business Intelligence
+                            </h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>Do you know your way around spreadsheets and are numbers really your thing?</h4>
+                            <p class="o_default_snippet_text">
+                                <br />
+                            </p>
+                            <p>
+                                <a href="#" class="btn btn-primary mb-2" data-original-title="" title="">Yes! Tell me more.</a>
+                            </p>
+                            <p>
+                                <br />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip290501">
+                        <div class="pt16 pb16 o_colored_level col-lg-5 offset-lg-1">
+                            <h1>
+                                Internship:
+                                <br />
+                                Sales
+                            </h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>Do you have a passion for sales and building relationships?</h4>
+                            <p>
+                                <br />
+                            </p>
+                            <h2></h2>
+                            <p>
+                                <a href="#" class="btn btn-primary mb-2" data-original-title="" title="">Yes absolutely, that's me!</a>
+                            </p>
+                        </div>
+                        <div class="o_colored_level pt0 pb0 col-lg-5 offset-lg-1">
+                            <img src="/web/image/7168-fb1f4ee7/5.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip633796" data-original-id="7158" data-original-src="/web/image/7158-35255ac0/5.png" data-mimetype="image/png" data-resize-width="690" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip577250">
+                        <div class="o_colored_level pt0 col-lg-5 pb16">
+                            <img src="/web/image/7169-bb5457d0/7.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip602636" data-original-id="7159" data-original-src="/web/image/7159-01ff713b/7.png" data-mimetype="image/png" data-resize-width="690" />
+                        </div>
+                        <div class="pt16 pb16 o_colored_level col-lg-6">
+                            <h1>
+                                Internship:
+                                <br />
+                                Content marketing
+                            </h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>Do you have a keen eye for aesthetics and visual design? And do you have a passion for both social media and a healthy lifestyle?</h4>
+                            <p>
+                                <br />
+                            </p>
+                            <h2></h2>
+                            <p data-original-title="" title="" aria-describedby="tooltip379885">
+                                <a href="#" class="mb-2 btn btn-primary" data-original-title="" title="">Yes, I would like to give it a shot!</a>
+                                &amp;nbsp;
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip233311">
+                        <div class="pt16 pb16 o_colored_level col-lg-5 offset-lg-1">
+                            <h1>
+                                Internship:
+                                <br />
+                                Online marketeer
+                            </h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>Do you know your way in Facebook Business Suite and are you an expert in advertising tools? And do you have a passion for both social media and a healthy lifestyle?</h4>
+                            <p>
+                                <br />
+                            </p>
+                            <p>
+                                <a href="#" class="mb-2 btn btn-primary" data-original-title="" title="">Yes, I do!</a>
+                                <br />
+                            </p>
+                        </div>
+                        <div class="o_colored_level pt0 pb0 col-lg-5 offset-lg-1">
+                            <img src="/web/image/7163-8172257b/6.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip274619" data-original-id="7160" data-original-src="/web/image/7160-8265cfae/6.png" data-mimetype="image/png" data-resize-width="690" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="s_text_image o_colored_level pt0 pb0" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+                <div class="container-fluid">
+                    <div class="row align-items-center" data-original-title="" title="" aria-describedby="tooltip829606">
+                        <div class="o_colored_level pt0 pb0 col-lg-5">
+                            <img src="/web/image/7164-e413f04a/8.png" class="img img-fluid mx-auto" alt="" loading="lazy" style="" data-original-title="" title="" aria-describedby="tooltip364253" data-original-id="7161" data-original-src="/web/image/7161-c2f559e8/8.png" data-mimetype="image/png" data-resize-width="690" />
+                        </div>
+                        <div class="pt16 pb16 o_colored_level col-lg-6">
+                            <h1>Not exactly what you were looking for?</h1>
+                            <h2>
+                                <br />
+                            </h2>
+                            <h4>
+                                Send your CV and motivation letter (plus perhaps a video or portfolio) to
+                                <a href="mailto:careers@nuthousecuracao.com">careers@nuthousecuracao.com</a>
+                                . Let us know who you are and why you'd be a great contribution to the team.
+                            </h4>
+                            <h2></h2>
+                            <p>
+                                <a href="#" class="btn btn-primary mb-2 o_default_snippet_text">Discover more</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </t>
+</t>
