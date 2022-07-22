@@ -1,0 +1,91 @@
+<t t-name="website.vacature-juice-barista">
+    <t t-call="website.layout">
+        <div id="wrap" class="oe_structure oe_empty">
+            <section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-image: none;">
+                <div class="container s_allow_columns">
+                    <h1 style="text-align: center;">
+                        <font style="font-size: 62px;">APPLICATION FORM</font>
+                        <br />
+                    </h1>
+                </div>
+            </section>
+            <section class="s_website_form pt16 pb16 o_colored_level" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+                <div class="container">
+                    <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_optional" data-mark="*" data-pre-fill="true" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="mail.mail">
+                        <div class="s_website_form_rows row s_col_no_bgcolor">
+                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="oyyjij42x9y">
+                                        <span class="s_website_form_label_content">Full Name</span>
+                                    </label>
+                                    <div class="col-sm">
+                                        <input type="text" class="form-control s_website_form_input" name="Full Name" required="1" placeholder="" id="oyyjij42x9y" data-fill-with="name" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group s_website_form_field col-12 s_website_form_model_required" data-type="email" data-name="Field" data-visibility-condition="" data-visibility-between="">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="oz44klwy555s">
+                                        <span class="s_website_form_label_content">Your Email</span>
+                                    </label>
+                                    <div class="col-sm">
+                                        <input type="email" class="form-control s_website_form_input" name="email_from" required="true" data-fill-with="email" id="oz44klwy555s" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group s_website_form_field col-12 s_website_form_model_required" data-type="char" data-name="Field" data-visibility-condition="" data-visibility-between="">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="ot9v0qbs2rdd">
+                                        <span class="s_website_form_label_content">Subject</span>
+                                    </label>
+                                    <div class="col-sm">
+                                        <input type="text" class="form-control s_website_form_input" name="subject" required="true" id="ot9v0qbs2rdd" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom" data-type="binary" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class=" col-sm-auto s_website_form_label " style="width: 200px" for="oc8ha0gg86ac">
+                                        <span class="s_website_form_label_content">Resume (.pdf)</span>
+                                        <span class="s_website_form_mark"> *</span>
+                                    </label>
+                                    <div class="col-sm">
+                                        <input type="file" class="form-control-file s_website_form_input" name="Resume (.pdf)" id="oc8ha0gg86ac" data-fill-with="commercial_company_name" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-visibility-condition="" data-visibility-between="" class="form-group s_website_form_field col-12 s_website_form_custom s_website_form_required" data-type="text" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px" for="oesdz18cq9b">
+                                        <span class="s_website_form_label_content">Cover Letter (optional)</span>
+                                    </label>
+                                    <div class="col-sm">
+                                        <textarea class="form-control s_website_form_input" name="Cover Letter (optional)" required="1" placeholder="" id="oesdz18cq9b" rows="3" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group s_website_form_field col-12    s_website_form_dnone" data-name="Field">
+                                <div class="row s_col_no_resize s_col_no_bgcolor">
+                                    <label class="col-form-label col-sm-auto s_website_form_label " style="width: 200px">
+                                        <span class="s_website_form_label_content" />
+                                    </label>
+                                    <div class="col-sm">
+                                        <input type="hidden" class="form-control s_website_form_input" name="email_to" value="info@yourcompany.example.com" />
+                                        <div class="s_website_form_field_description small form-text text-muted">
+            Separate email addresses with a comma.
+        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12 s_website_form_submit" data-name="Submit Button" data-original-title="" title="" aria-describedby="tooltip10150">
+                                <div style="width: 200px;" class="s_website_form_label" />
+                                <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send" data-original-title="" title="">Submit</a>
+                                <span id="s_website_form_result" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </t>
+</t>
